@@ -43,12 +43,16 @@ const Header = () => {
 
       <nav>
         <ul className={style.auth_container}>
-          <li className={style.log_in}>
-            <a href="#">Log in</a>
+          <li>
+            <a href="#" className={style.log_in}>
+              Log in
+            </a>
           </li>
 
-          <li className={style.sign_up}>
-            <a href="#">Sign up</a>
+          <li>
+            <a href="#" className={style.sign_up}>
+              Sign up
+            </a>
           </li>
         </ul>
       </nav>

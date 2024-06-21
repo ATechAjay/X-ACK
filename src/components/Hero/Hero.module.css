@@ -27,13 +27,38 @@
   font-weight: 500;
   padding: 1.5rem 4rem;
   border: none;
-  background: dodgerblue;
+  background: rgba(255, 255, 255, 0.1);
   color: #fff;
   border-radius: 10rem;
   cursor: pointer;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(39, 138, 110, 0.2);
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero_button::before {
+  content: "";
+  position: absolute;
+  height: 2rem;
+  width: 2rem;
+  background: #278a6e;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+  filter: blur(10px);
+}
+
+.hero_button:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(39, 138, 110, 0.3);
 }
 
 .hero_button svg {
-  vertical-align: center;
+  vertical-align: middle;
   margin-left: 1rem;
 }

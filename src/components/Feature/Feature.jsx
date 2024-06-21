@@ -6,13 +6,19 @@ import { CARD_DATA } from "../../utils/Contants";
 const Feature = () => {
   // Function to render card on UI
   function renderCardOnUi(CARD_DATA) {
+    console.log(CARD_DATA);
     return CARD_DATA.map((card) => (
-      <Card key={card.id} title={card.title} description={card.description} />
+      <Card
+        key={card.id}
+        title={card.title}
+        description={card.description}
+        width={{ width: card.width }}
+      />
     ));
   }
 
   return (
-    <div>
+    <div className={style.feature_container}>
       <Text
         type="h2"
         content="Things users love about X-ACK"

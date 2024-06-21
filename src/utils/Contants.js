@@ -6,29 +6,38 @@ export const DASHBOARD_URL =
 export const CARD_DATA = [
   {
     id: "c1",
+    width: "678px",
     title: "Users appreciate X-ACK's intuitive interface",
     description:
       "An intuitive interface means that users can quickly understand how to use the platform without the need for extensive training or guidance.",
   },
+
   {
     id: "c2",
+    width: "450px",
     title: "Robust Learning Tools",
     description: "Something about our learning tools and features goes here",
   },
+
   {
     id: "c3",
+    width: "366px",
     title: "Flexiable Difficulty",
     description:
       "We have sophistically designed machines for all beginner to advance level players",
   },
+
   {
     id: "c4",
+    width: "366px",
     title: "Community",
     description:
       "We fostered a nurturing community ...some more 1 line about community",
   },
+
   {
     id: "c5",
+    width: "366px",
     title: "Gamified UI elements",
     description:
       "Info about earning badges and respect from players and machines. Gamified features",
