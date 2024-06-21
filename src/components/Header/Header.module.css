@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 6.4rem;
+  padding: 0 2.4rem;
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.logo {
+  font-size: 2.4rem;
+  font-family: "Bruno Ace", sans-serif;
+  text-transform: uppercase;
+}
+
+.links_container {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 1.3rem;
+}
+
+.link {
+  display: flex;
+  align-items: baseline;
+}
+
+.auth_container {
+  display: flex;
+  list-style: none;
+
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.log_in {
+}
+
+.sign_up {
+}

@@ -1,0 +1,20 @@
+.card_container {
+  height: 30rem;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.12),
+    rgba(255, 255, 255, 0.04)
+  );
+  padding: 2rem;
+  border-radius: 2.4rem;
+}
+
+.card_title {
+  font-weight: bold;
+  font-weight: 2rem;
+}
+
+.card_description {
+  font-weight: 1.6rem;
+  margin-top: 1.6rem;
+}

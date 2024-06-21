@@ -1,0 +1,39 @@
+.hero_container {
+  width: 40%;
+  margin: 3rem auto;
+  text-align: center;
+}
+
+.hero_heading {
+  font-size: 6.8rem;
+  font-weight: 500;
+  background: linear-gradient(to bottom, #f1f1ef, rgba(242, 242, 240, 0.3));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero_description {
+  font-size: 1.8rem;
+}
+
+.hero_heading,
+.hero_description {
+  margin-bottom: 2rem;
+}
+
+.hero_button {
+  font-size: 1.6rem;
+  font-weight: 500;
+  padding: 1.5rem 4rem;
+  border: none;
+  background: dodgerblue;
+  color: #fff;
+  border-radius: 10rem;
+  cursor: pointer;
+}
+
+.hero_button svg {
+  vertical-align: center;
+  margin-left: 1rem;
+}
